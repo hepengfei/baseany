@@ -1,0 +1,16 @@
+一个数字和其任意进制表示方法之间的转换算法，你只需要提供相应进制的位序
+列即可。
+
+
+使用方法：
+
+import baseany
+
+base3 = baseany.new('abc')
+s = base3.ntos(12)
+n = base3.ston(s)
+
+print '%d <=> %s' % (n, s)
+
+
+
