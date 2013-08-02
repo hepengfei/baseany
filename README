@@ -4,6 +4,8 @@
 
 使用方法：
 
+------
+
 import baseany
 
 base3 = baseany.new('abc')
@@ -12,5 +14,12 @@ n = base3.ston(s)
 
 print '%d <=> %s' % (n, s)
 
+------
 
+ntos : Number to String
+ston : String to Number
+
+TODO:
+1. 优化性能
+2. 实现更多语言的版本
 
